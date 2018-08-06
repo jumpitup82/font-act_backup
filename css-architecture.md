@@ -19,7 +19,7 @@ description: 'For Predicable, Reusable, Maintainable, Scalable CSS'
 * OOCSS
 * SMACSS
 
-#### _References_
+## _References_
 
 {% embed data="{\"url\":\"https://philipwalton.com/articles/css-architecture/\",\"type\":\"link\",\"title\":\"CSS Architecture — Philip Walton\",\"description\":\"To many Web developers, being good at CSS means you can take a visual mock-up and replicate it perfectly in code. You don\'t use tables, and you pride yourself on using as few images as possible. If you\'re really good, you use the latest and greatest techniques like media queries, transitions and transforms. While all this is certainly true of good CSS developers, there\'s an entirely separate side to CSS that rarely gets mentioned when assessing one\'s skill.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://philipwalton.com/static/apple-touch-icon-ffb6b425b0.png\",\"width\":180,\"height\":180,\"aspectRatio\":1}}" %}
 

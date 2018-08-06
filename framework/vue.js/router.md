@@ -4,26 +4,26 @@ description: Vue.js를 사용한 SPA 를 쉽게 만들 수 있도록 작성된 �
 
 # Router
 
-### Vue Routing
+## Vue Routing
 
 URL의 변경에 따라 표시될 Vue Component View를 연결하는 것.
 
-### Hash-Based routing
+## Hash-Based routing
 
-anchor\(\#\)를 사용한 경로의 특성을 이용하여 전체 시뮬레이트한 URL을 라우팅에 이용하는 것. 
+anchor\(\#\)를 사용한 경로의 특성을 이용하여 전체 시뮬레이트한 URL을 라우팅에 이용하는 것.
 
-* ex\) http://route-test.com/\#/products/123
+* ex\) [http://route-test.com/\#/products/123](http://route-test.com/#/products/123)
 * \#뒤쪽의 주소\(\#/products/123\)는 서버로 전송되지 않음.
 * \#이후의 주소의 변경 또한 페이지의 리로드를 발생시키지 않음.
 
-### History Mode routing
+## History Mode routing
 
 HTML5의 history.pushState API를 라우팅에 이용하는 것.
 
 * history.pushState API를 활용하여 페이지 리로드없이 URL 변경을 이용 
 * URL의 변경에 따라 Client-side의 페이지가 연결되기 때문에, 변경된 URL로 직접 접근할 경우 404 오류를 유발 -&gt; 서버에 대체경로를 추가하여 처리\(ex. /abc/def -&gt; /index.html\)
 
-### Features
+## Features
 
 * 모듈화된, 컴포넌트 기반의 라우터 설정
 * 라우터 파라미터, 쿼리, 와일드카드
@@ -47,7 +47,7 @@ const router = new VueRouter({
 * HTML5 히스토리 모드 또는 해시 모드\(IE9에서 자동으로 폴백\)
 * 사용자 정의 가능한 스크롤 동작
 
-### 기본사용법 
+## 기본사용법
 
 ```markup
 <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
@@ -78,6 +78,4 @@ const app = new Vue({
   router
 }).$mount('#app')
 ```
-
-
 

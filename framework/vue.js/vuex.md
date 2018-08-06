@@ -6,7 +6,7 @@ description: 애플리케이션 상태관리패턴이자 라이브러리리
 
 _There is a single-source of truth_
 
-### 데이터 공유의 문제
+## 데이터 공유의 문제
 
 데이터\(Props\)는 하위 컴포넌트로 전파 되는 것을 통해 데이터의 흐름 쉽게 제어. 하지만,
 
@@ -15,7 +15,7 @@ _There is a single-source of truth_
 
 ![](../../.gitbook/assets/vuex-problem.png)
 
-### 상태관리패턴
+## 상태관리패턴
 
 공유되어야 할 상태를 추출하여 전역 싱글톤으로 관리
 
@@ -23,13 +23,13 @@ _There is a single-source of truth_
 
 ![Unidirectional Data Flow](../../.gitbook/assets/unidirectional-data-flow.png)
 
-![Vuex&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xB3D9;&#xC791;&#xD558;&#xB294; &#xB370;&#xC774;&#xD130; &#xD750;&#xB984;](../../.gitbook/assets/data-flow-with-vuex%20%281%29.png)
+![Vuex&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xB3D9;&#xC791;&#xD558;&#xB294; &#xB370;&#xC774;&#xD130; &#xD750;&#xB984;](../../.gitbook/assets/data-flow-with-vuex-1.png)
 
-### 상태
+## 상태
 
 Vuex는 단일 상태 트리를 사용. 원본 데이터의 역
 
-### 변이
+## 변이
 
 * State를 변경하는 유일한 방법
 * 동기식 로직만 작성 가능
@@ -52,7 +52,7 @@ const store = new Vuex.Store({
 store.commit('addOne')
 ```
 
-### Action
+## Action
 
 * commit function 을 통해 state 변경을 수행\(state 직접 접근하지 않음\)
 * 임의의 비동기식 로직 작성 가능
@@ -69,7 +69,7 @@ actions: {
 store.dispatch('increment')
 ```
 
-### 애플리케이션 구조
+## 애플리케이션 구조
 
 ```text
 ├── index.html
@@ -87,6 +87,4 @@ store.dispatch('increment')
         ├── cart.js       # cart 모듈
         └── products.js   # products 모듈
 ```
-
-
 

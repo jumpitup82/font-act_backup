@@ -9,7 +9,7 @@ description: DOM요소에게 정의된 행동을 수행하도록 알리는 지�
 * v- 접두사로 시작
 * 속성값은 단일 javascript 표현 \(v-for는 제외\)
 
-### 조건부 렌더링 
+### 조건부 렌더링
 
 #### &lt;v-if&gt;
 
@@ -41,8 +41,6 @@ description: DOM요소에게 정의된 행동을 수행하도록 알리는 지�
     안녕하세요!!
 </div>
 ```
-
-
 
 ### 반복 렌더링
 
@@ -130,6 +128,4 @@ var example1 = new Vue({
 
 * javascript 의 한계로 속성의 추가나 삭제 감지하지 못한다.
 * Vue.set API 활용
-
-
 

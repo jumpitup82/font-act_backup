@@ -8,8 +8,6 @@ description: Web Front-end component library
 
 트위터에서 Twitter Blueprint 라는 이름으로 개발되어지기 시작\(by Mark Otto and Jacob Thornton\)
 
-
-
 ## Features
 
 ### Stylesheets
@@ -24,11 +22,7 @@ description: Web Front-end component library
 
 추가기능들이 추가된 jQuery Plugins 기반의 컴포넌트
 
-
-
 ## 참조
 
 ## [https://en.wikipedia.org/wiki/Bootstrap\_\(front-end\_framework](https://en.wikipedia.org/wiki/Bootstrap_%28front-end_framework%29)
-
-
 

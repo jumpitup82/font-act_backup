@@ -4,7 +4,7 @@ description: 'v-on 디렉티브를 사용하여 DOM를 리스닝 하고, 트리�
 
 # 이벤트 핸들링
 
-#### 메소드 이벤트 핸들러 
+### 메소드 이벤트 핸들러
 
 ```markup
 <div id="menu"> 
@@ -23,7 +23,7 @@ var vm = new Vue({
 });
 ```
 
-#### 인라인 메소드 핸들러
+### 인라인 메소드 핸들러
 
 ```markup
 <div id="menu"> 
@@ -43,9 +43,9 @@ var vm = new Vue({
 });
 ```
 
-### 이벤트 수식어
+## 이벤트 수식어
 
-####  이벤트 기본 수식어  
+### 이벤트 기본 수식어
 
 ```markup
 <!-- 클릭 이벤트 전파가 중단됩니다 -->
@@ -65,18 +65,16 @@ var vm = new Vue({
 
 <!-- 이벤트 리스너를 추가하며 한번만 트리거링함 -->
 <div @click.once>...</div>
-
-
 ```
 
-#### 키 수식어
+### 키 수식어
 
 ```markup
 <!-- keyCode가 13일 때만 `vm.submit()`을 호출합니다  -->
 <input v-on:keyup.13="submit">
 ```
 
-#### Alias
+### Alias
 
 ```markup
 <!-- 위와 같습니다 -->
@@ -85,14 +83,14 @@ var vm = new Vue({
 
 * enter, tab, delete, esc, space, up, down, left, right
 
-#### 사용자 지정 키 수식어
+### 사용자 지정 키 수식어
 
 ```javascript
 // `v-on:keyup.f1`을 사용할 수 있습니다.
 Vue.config.keyCodes.f1 = 112
 ```
 
-#### 시스템 키 수식어
+### 시스템 키 수식어
 
 ctrl, alt, shift, meta
 
@@ -104,7 +102,7 @@ ctrl, alt, shift, meta
 <div @click.ctrl="doSomething">Do something</div>
 ```
 
-#### 마우스 버튼 수식어
+### 마우스 버튼 수식어
 
 left, right, middle
 
@@ -112,6 +110,4 @@ left, right, middle
 <button @click.right="doSomething">...</button>
 <button @click.ctrl.right="doSomething">...</button>
 ```
-
-
 

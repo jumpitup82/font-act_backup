@@ -35,7 +35,6 @@
 * [CSS Architecture](css-architecture.md)
 * [Test](test.md)
 * [Web Application Optimization](web-application-optimization.md)
-* [Frond-end Architecture in MSA](frond-end-architecture-in-msa.md)
 * [Single Page Application](single-page-application.md)
 * [2017 Front-end Recap](recap-of-front-end-development-in-2017.md)
 * [2018 Front-end Roadmap](roadmap.md)

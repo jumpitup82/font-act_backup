@@ -4,7 +4,7 @@ description: 데이터의 변경없이 형식된 출력을 지원
 
 # Filter
 
-### 선언
+## 선언
 
 로컬 필터
 
@@ -35,7 +35,7 @@ Vue.filter('capitalize', function (value) {
 })
 ```
 
-### 사용 방법
+## 사용 방법
 
 * 파이프 심볼을 이용
 * 중괄호 보간법 혹은 v-bind 표현법 안에서 사용가능
@@ -60,6 +60,4 @@ message가 ABC일 경우 최종 출력은 **Abc
 -->
 <div v-bind:msg="message | lowercase | capitalize | padLeft('*', 5)"></div>
 ```
-
-
 

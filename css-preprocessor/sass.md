@@ -4,7 +4,7 @@ description: Syntactically Awesome Style Sheets
 
 # SASS
 
-### Variables
+## Variables
 
 $문자를 변수선언 심볼로 사용
 
@@ -27,7 +27,7 @@ body {
 }
 ```
 
-### Nesting
+## Nesting
 
 계층구조를 가지는 형태로 작성가능
 
@@ -52,11 +52,11 @@ nav li {
 }
 ```
 
-### Partials and Import
+## Partials and Import
 
-CSS 를 모듈화 하여 작성. 
+CSS 를 모듈화 하여 작성.
 
-기존CSS Import 의 경우 HTTP request를 사용하만, Sass  Import 의 경우 빌드 타임에 하나의 파일로 번들링 
+기존CSS Import 의 경우 HTTP request를 사용하만, Sass Import 의 경우 빌드 타임에 하나의 파일로 번들링
 
 ```css
 // _reset.scss
@@ -81,7 +81,7 @@ body {
 }
 ```
 
-### Mixins
+## Mixins
 
 재사용 가능한 형태의 CSS 선언을 지
 
@@ -104,7 +104,7 @@ body {
 }
 ```
 
-### Extend/Inheritance
+## Extend/Inheritance
 
 CSS 의 set을 공유할 수 있게 함
 
@@ -166,7 +166,7 @@ CSS 의 set을 공유할 수 있게 함
 }
 ```
 
-### Operators
+## Operators
 
 +, -, \*, / and % 와 같은 수학 연산자들을 사용가능
 
