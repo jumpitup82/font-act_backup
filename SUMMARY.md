@@ -36,7 +36,6 @@
 * [Test](test.md)
 * [Web Application Optimization](web-application-optimization.md)
 * [Single Page Application](single-page-application.md)
-* [2017 Front-end Recap](recap-of-front-end-development-in-2017.md)
 * [2018 Front-end Roadmap](roadmap.md)
 * [ETC](etc.md)
 
