@@ -35,9 +35,5 @@ Progressive Javascript Framework
 
 ![](../../.gitbook/assets/responsive-data.png)
 
-## Separation of Concerns in Vue.js
 
-* 관심사의 분리가 파일타입의 분리\(css, js 등\)와 같지 않다고 봄
-* 현대적인 UI 개발에서 코드베이스를 서로 얽혀있는 세 개의 거대한 레이어\(HTML, CSS, JS\)로 나누는 대신, 느슨하게 결합 된 컴포넌트로 나누고 구성하는 것이 더 중요
-* 컴포넌트 내부에서 템플릿, 로직 및 스타일이 본질적으로 결합되어 배치되면 컴포넌트의 응집력과 유지 보수성이 향상됩니다.
 
