@@ -35,5 +35,19 @@ Progressive Javascript Framework
 
 ![](../../.gitbook/assets/responsive-data.png)
 
+### Vue 를 사용한 프로젝트 {#angular5}
 
+* Xiaomi
+* Alibaba
+* WizzAir
+* EuroNews
+* Grammarly
+* Gitlab and Laracasts
+* Adobe
+* Behance
+* Codeship
+* Reuters.
+
+[  
+](https://velopert.com/3613)
 
