@@ -81,7 +81,19 @@ export default {
 <style src="./my-component.css"></style>
 ```
 
+### Component 간 통신 \(비 부모-자식\)
 
+```javascript
+var bus = new Vue()
+
+//pub
+bus.$emit('a-event', 1)
+
+//sub
+bus.$on('a-event', function (param) {
+  // ...
+})
+```
 
 ## Separation of Concerns in Vue.js
 
