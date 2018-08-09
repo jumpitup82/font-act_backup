@@ -39,7 +39,7 @@ Progressive Javascript Framework
 
 * Xiaomi
 * Alibaba
-* WizzAir
+* [WizzAir](https://wizzair.com/#/)
 * EuroNews
 * Grammarly
 * Gitlab and Laracasts

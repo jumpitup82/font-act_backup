@@ -8,9 +8,9 @@
 
 ### Angular5 를 사용한 프로젝트
 
-* Upwork
-* Freelancer
-* Udemy
+* [Upwork](https://www.upwork.com/)
+* [Freelancer](https://www.freelancer.com/)
+* [Udemy](https://www.udemy.com/)
 * YouTube
 * Paypal
 * Nike
