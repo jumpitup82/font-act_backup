@@ -95,6 +95,39 @@ bus.$on('a-event', function (param) {
 })
 ```
 
+### Slot
+
+```markup
+<div>
+  <h2>나는 자식 컴포넌트의 제목입니다</h2>
+  <slot>
+    제공된 컨텐츠가 없는 경우에만 보실 수 있습니다.
+  </slot>
+</div>
+```
+
+```markup
+<div>
+  <h1>나는 부모 컴포넌트의 제목입니다</h1>
+  <my-component>
+    <p>이것은 원본 컨텐츠 입니다.</p>
+    <p>이것은 원본 중 추가 컨텐츠 입니다</p>
+  </my-component>
+</div>
+```
+
+```markup
+<div>
+  <h1>나는 부모 컴포넌트의 제목입니다</h1>
+  <div>
+    <h2>나는 자식 컴포넌트의 제목 입니다</h2>
+    <p>이것은 원본 컨텐츠 입니다.</p>
+    <p>이것은 원본 중 추가 컨텐츠 입니다</p>
+  </div>
+</div>
+
+```
+
 ## Separation of Concerns in Vue.js
 
 * 관심사의 분리가 파일타입의 분리\(css, js 등\)와 같지 않다고 봄
