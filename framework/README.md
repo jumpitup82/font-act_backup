@@ -8,6 +8,22 @@ description: Modern Web Application 구축을 위한 Framework들.
 
 ![NPM &#xB2E4;&#xC6B4;&#xB85C;&#xB4DC;](../.gitbook/assets/2018-09-11-5.27.37.png)
 
+#### 확장성 있는 어플리케이션 구축에 충분한가?
+
+#### 개발자를 쉽게 찾을 수 있는가?
+
+#### 성능, 속도 및 학습곡선?
+
+#### 지원 및 성장?
+
+#### JSX vs HTML
+
+#### Framework vs Library
+
+#### One-way binding vs Two-way binding
+
+
+
 ### A Quick Comparison Angular vs. React vs. Vue
 
 |  | **Angular** | **React** | **Vue** |
@@ -37,5 +53,9 @@ description: Modern Web Application 구축을 위한 Framework들.
 
 ## _References_
 
+{% embed data="{\"url\":\"https://dzone.com/articles/react-vs-angular-vs-vuejs-a-complete-comparison-gu\",\"type\":\"link\",\"title\":\"React vs. Angular vs. Vue.js: A Complete Comparison Guide - DZone Web Dev\",\"description\":\"A comparative look at the three most popular front-end web development frameworks out there, Angular, Vue.js, and and React.js, and when to use each framework.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://dzone.com/themes/dz20/images/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://dz2cdn3.dzone.com/storage/article-thumb/10015638-thumb.jpg\",\"width\":640,\"height\":400,\"aspectRatio\":0.625}}" %}
+
 {% embed data="{\"url\":\"https://medium.com/@TechMagic/reactjs-vs-angular5-vs-vue-js-what-to-choose-in-2018-b91e028fa91d\",\"type\":\"link\",\"title\":\"ReactJS vs Angular5 vs Vue.js — What to choose in 2018?\",\"description\":\"Some time ago we published an article with a comparison of Angular 2 and React. In that article, we showed pros and cons of these…\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cdn-images-1.medium.com/fit/c/304/304/1\*8I-HPL0bfoIzGied-dzOvA.png\",\"width\":152,\"height\":152,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://cdn-images-1.medium.com/max/2000/1\*P1xMsTVcfWxQ7yLSQOVrfQ.png\",\"width\":1920,\"height\":784,\"aspectRatio\":0.4083333333333333}}" %}
+
+
 
